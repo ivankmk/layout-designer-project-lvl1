@@ -1,5 +1,44 @@
 body {
     font-family: Arial;
     color: #303846;
-    font-size: 36px;
+    font-size: 16px;
+    background-color: beige;
+    margin: 0 auto;
 }
+
+
+.header {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+.logo-pic {
+    width: 20px;
+}
+
+
+.logo {
+    display: flex;
+    flex-basis: 10%;
+    justify-content: space-evenly;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.navbar li {
+    margin-left: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+

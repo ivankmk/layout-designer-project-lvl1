@@ -6,6 +6,7 @@ body {
     margin: 0 auto;
 }
 
+/* Header part */
 
 .header {
     display: flex;
@@ -14,12 +15,10 @@ body {
     align-items: center;
     position: fixed;
     width: 100%;
+    height: 50px;
     top: 0px;
 }
 
-.logo-pic {
-    width: 20px;
-}
 
 
 .logo {
@@ -28,17 +27,55 @@ body {
     justify-content: space-evenly;
 }
 
+.logo-pic {
+    width: 20px;
+}
+
+
+.navbar {
+    display: flex;
+    flex-basis: 25%;
+    justify-content: space-evenly;   
+}
+
 .navbar ul {
+    width: 100%;
     display: flex;
     list-style: none;
     justify-content: space-around;
-}
 
-.navbar li {
-    margin-left: 25px;
 }
 
 .navbar a {
     text-decoration: none;
 }
 
+/* End Header part */
+
+/* Body part */
+.logo-pic-body {
+    width: 100px;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background: url("/Users/ivankmk/Side_projects/12.ivan_is_learning/ivan-is-learning/courses/hexlet/layout-designer-project-lvl1/images/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+}
+
+
+/* End Body part */

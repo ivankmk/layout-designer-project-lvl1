@@ -6,6 +6,7 @@ body {
     margin: 0 auto;
 }
 
+
 /* Header part */
 
 .header {
@@ -19,8 +20,6 @@ body {
     top: 0px;
 }
 
-
-
 .logo {
     display: flex;
     flex-basis: 10%;
@@ -31,11 +30,10 @@ body {
     width: 20px;
 }
 
-
 .navbar {
     display: flex;
     flex-basis: 25%;
-    justify-content: space-evenly;   
+    justify-content: space-evenly;
 }
 
 .navbar ul {
@@ -43,7 +41,6 @@ body {
     display: flex;
     list-style: none;
     justify-content: space-around;
-
 }
 
 .navbar a {
@@ -54,9 +51,12 @@ h1 {
     margin: 0;
 }
 
+
 /* End Header part */
 
+
 /* Body part */
+
 .logo-pic-body {
     width: 100px;
 }
@@ -81,20 +81,28 @@ h1 {
     height: 30px;
     background-color: transparent;
     color: white;
+    border-radius: 5px;
 }
+
 
 /* End Body part */
 
+
 /* Main content */
+
 .container {
     display: flex;
     justify-content: center;
 }
+
 .container-main {
     display: flex;
     flex-direction: column;
     width: 1000px;
 }
+
+
+/* Section 2 */
 
 .section-advantages {
     display: flex;
@@ -113,8 +121,6 @@ h1 {
     height: 350px;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    
 }
 
 .about {
@@ -126,21 +132,19 @@ h1 {
     width: 20%;
 }
 
-.about-image img{
+.about-image img {
     width: 200px;
-
 }
 
 
+/* Section 3 */
 
 .section-place-for-the-rest {
     display: flex;
-
     height: 350px;
     align-items: center;
     justify-content: center;
     width: 100%;
-    
 }
 
 .place-for-the-rest {
@@ -152,15 +156,101 @@ h1 {
     width: 20%;
 }
 
-.place-for-the-rest-image img{
+.place-for-the-rest-image img {
     width: 200px;
-
 }
 
 
+/* Section form */
 
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.form-header {
+    text-align: center;
+}
+
+.button-form,
+.form-header,
+.form-parameters,
+.form-contact-info {
+    display: flex;
+    width: 350px;
+    margin-top: 2%;
+}
+
+.form-parameters form,
+.form-contact-info form {
+    width: 100%;
+}
+
+.form-room,
+.form-interior,
+.name,
+.phone,
+.email {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.form-room,
+.form-interior {
+    display: flex;
+}
+
+#rooms-select,
+#interior-select,
+#name,
+#phone,
+#email {
+    width: 40%;
+}
+
+.form-bnt {
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border-color: turquoise;
+    color: turquoise;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.field_set {
+    border-color: turquoise;
+    border-style: solid;
+}
+
+.legend-text {
+    color: turquoise;
+}
 
 
 /* End Main content */
 
 
+/* Footer */
+
+.footer-container {
+    margin-top: 2%;
+    display: flex;
+    background-color: #303846;
+    height: 200px;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-element-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* End Footer */

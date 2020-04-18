@@ -15,14 +15,14 @@
     <div class="header">
         <div class="logo">
             <img class="logo-pic" src="images/logo.svg" alt="this is the logo">
-            <span>Moonlit Sea</span>
+            <span>Лунное Море</span>
         </div>
 
         <nav class="navbar">
             <ul>
-                <li><a href="">Advantages</a></li>
-                <li><a href="">About Project</a></li>
-                <li><a href="">Places For Rest</a></li>
+                <li><a href="">Преимущества</a></li>
+                <li><a href="">О ЖК</a></li>
+                <li><a href="">Места для отдыха</a></li>
             </ul>
         </nav>
     </div>
@@ -35,31 +35,32 @@
     </div>
 
     <div class="container">
+
+
         <div class="container-main">
+
+            <!-- Section 1 -->
             <div class="section-advantages">
                 <div class="advantage">
                     <h2>Уникальный вид</h2>
-                    <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться
-                        метеоритными потоками.</p>
+                    <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
                 </div>
                 <div class="advantage">
                     <h2>Инфраструктура</h2>
-                    <p>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится
-                        кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
+                    <p>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
                 </div>
                 <div class="advantage">
                     <h2>Близость к Москве</h2>
-                    <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце
-                        России.</p>
+                    <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.
+                    </p>
                 </div>
             </div>
 
+            <!-- Section 2 -->
             <div class="section-about">
                 <div class="about">
                     <h2>О ЖК «Лунное море»</h2>
-                    <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с
-                        мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до
-                        столицы и обратно.</p>
+                    <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
                     <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.
                     </p>
                 </div>
@@ -68,6 +69,7 @@
                 </div>
             </div>
 
+            <!-- Section 3 -->
             <div class="section-place-for-the-rest">
                 <div class="place-for-the-rest-image">
                     <img src="images/moon-2.jpg" alt="">
@@ -75,24 +77,113 @@
 
                 <div class="place-for-the-rest">
                     <h2>О ЖК «Лунное море»</h2>
-                    <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с
-                        мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до
-                        столицы и обратно.</p>
+                    <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
                     <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.
                     </p>
-                </div>                
+                </div>
             </div>
+
+            <!-- Form Section -->
+            <div class="form-container">
+
+                <div class="form-header">
+                    <h2>Отправьте заявку сегодня!</h2>
+                </div>
+
+                <div class="form-parameters">
+                    <form action="">
+                        <fieldset class="field_set">
+                            <legend class="legend-text">Параметры Квартиры</legend>
+
+                            <div class="form-room">
+                                <label for="rooms-select">Количество комнат:</label>
+                                <select name="rooms" id="rooms-select">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="2">2</option>
+                                </select>
+                            </div>
+
+                            <div class="form-interior">
+                                <label for="interior-select">Отделка:</label>
+                                <select name="interior" id="interior-select">
+                                    <option value="Без Отделки">Без отделки</option>
+                                    <option value="С отделкой">C отделкой</option>
+                                    <option value="С хорошей отделкой">С хорошей отделкой</option>
+                                </select>
+                            </div>
+
+                        </fieldset>
+                    </form>
+                </div>
+
+
+                <div class="form-contact-info">
+                    <form action="">
+                        <fieldset class="field_set">
+                            <legend class="legend-text">Контактная информация</legend>
+
+                            <div class="name">
+                                <label for="name">Имя</label>
+                                <input type="text" id="name" name="monster">
+                            </div>
+
+                            <div class="phone">
+                                <label for="phone">Телефон</label>
+                                <input type="text" id="phone" name="monster">
+                            </div>
+
+                            <div class="email">
+                                <label for="email">E-mail</label>
+                                <input type="text" id="email" name="monster">
+                            </div>
+
+                        </fieldset>
+
+                    </form>
+
+                </div>
+
+                <div class="button-form">
+                    <button class="form-bnt">Отправить</button>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
 
         </div>
     </div>
 
 
+    <div class="footer-container">
 
+        <div class="footer-element-1">
+            <span> <img class="logo-pic" src="images/logo.svg" alt="this is the logo"> Лунное Море</span><br>
+            <span>© 2020 год</span>
+        </div>
 
+        <div class="footer-element-2">
+            <h4>Проектная Документация</h4>
+            <ul>
+                <li>Скачать</li>
+                <li>Посмотреть на сайте</li>
+            </ul>
+        </div>
+        <div class="footer-element-3">
+            <h4>О застройщике</h4>
+            <ul>
+                <li>Отзывы</li>
+                <li>Сайт компании</li>
+            </ul>
+        </div>
+    </div>
 
-    <footer>
-        This is footer.
-    </footer>
 
 
 </body>

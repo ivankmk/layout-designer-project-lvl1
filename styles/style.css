@@ -45,6 +45,7 @@ body {
 
 .navbar a {
     text-decoration: none;
+    color: #303846;
 }
 
 h1 {
@@ -106,20 +107,29 @@ h1 {
 
 .section-advantages {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 350px;
     align-items: center;
+    flex-basis: 100%;
+    ;
 }
 
 .advantage {
-    flex-basis: 30%;
+    flex-basis: 15%;
 }
 
 .section-about {
     display: flex;
-    background-color: #f7f7f7;
+    justify-content: center;
     height: 350px;
+    flex-basis: 70%;
     align-items: center;
+}
+
+.section-about-wraper {
+    display: flex;
+    flex-basis: 100%;
+    background-color: #f7f7f7;
     justify-content: center;
 }
 
@@ -139,12 +149,18 @@ h1 {
 
 /* Section 3 */
 
+.section-place-for-the-rest-wraper {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+}
+
 .section-place-for-the-rest {
     display: flex;
     height: 350px;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    flex-basis: 70%;
 }
 
 .place-for-the-rest {
@@ -163,55 +179,8 @@ h1 {
 
 /* Section form */
 
-.form-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
 
-.form-header {
-    text-align: center;
-}
-
-.button-form,
-.form-header,
-.form-parameters,
-.form-contact-info {
-    display: flex;
-    width: 350px;
-    margin-top: 2%;
-}
-
-.form-parameters form,
-.form-contact-info form {
-    width: 100%;
-}
-
-.form-room,
-.form-interior,
-.name,
-.phone,
-.email {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1%;
-}
-
-.form-room,
-.form-interior {
-    display: flex;
-}
-
-#rooms-select,
-#interior-select,
-#name,
-#phone,
-#email {
-    width: 40%;
-}
-
-.form-bnt {
+/* .form-bnt {
     width: 100px;
     height: 30px;
     background-color: transparent;
@@ -228,7 +197,7 @@ h1 {
 
 .legend-text {
     color: turquoise;
-}
+} */
 
 
 /* End Main content */

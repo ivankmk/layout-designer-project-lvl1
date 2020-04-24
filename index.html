@@ -90,70 +90,72 @@
 
     <!-- Form Section -->
 
+    <div class="form-container">
 
-    <div class="form-header">
-        <h2>Отправьте заявку сегодня!</h2>
-    </div>
+        <div class="form-header">
+            <h2>Отправьте заявку сегодня!</h2>
+        </div>
 
-    <div class="form-parameters">
-        <form class="form1" action="#">
-            <fieldset class="field_set">
-                <legend class="legend-text">Параметры Квартиры</legend>
 
-                <div class="form-room">
-                    <label for="rooms-select">Количество комнат:</label>
-                    <select name="rooms" id="rooms-select">
+        <div class="form-parameters">
+            <form class="form1" action="#">
+                <fieldset class="field_set">
+                    <legend class="legend-text">Параметры Квартиры</legend>
+
+                    <div class="form-room">
+                        <label for="rooms-select">Количество комнат:</label>
+                        <select name="rooms" id="rooms-select">
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="2">2</option>
                         </select>
-                </div>
+                    </div>
 
-                <div class="form-interior">
-                    <label for="interior-select">Отделка:</label>
-                    <select name="interior" id="interior-select">
+                    <div class="form-interior">
+                        <label for="interior-select">Отделка:</label>
+                        <select name="interior" id="interior-select">
                             <option value="Без Отделки">Без отделки</option>
                             <option value="С отделкой">C отделкой</option>
                             <option value="С хорошей отделкой">С хорошей отделкой</option>
                         </select>
-                </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
 
-            </fieldset>
-        </form>
+
+        <div class="form-contact-info">
+            <form class="form2" action="#">
+                <fieldset class="field_set">
+                    <legend class="legend-text">Контактная информация</legend>
+
+
+                    <div class="wrapper-form2">
+                        <div class="name">
+                            <label for="name">Имя:</label>
+                            <input type="text" id="name" name="monster">
+                        </div>
+
+                        <div class="phone">
+                            <label for="phone">Телефон:</label>
+                            <input type="text" id="phone" name="monster">
+                        </div>
+
+                        <div class="email">
+                            <label for="email">E-mail:</label>
+                            <input type="text" id="email" name="monster">
+                        </div>
+                    </div>
+
+
+                </fieldset>
+                <div class="button-form">
+                    <button class="form-bnt">Отправить</button>
+                </div>
+            </form>
+        </div>
+
     </div>
-
-
-    <div class="form-contact-info">
-        <form action="#">
-            <fieldset class="field_set">
-                <legend class="legend-text">Контактная информация</legend>
-
-                <div class="name">
-                    <label for="name">Имя</label>
-                    <input type="text" id="name" name="monster">
-                </div>
-
-                <div class="phone">
-                    <label for="phone">Телефон</label>
-                    <input type="text" id="phone" name="monster">
-                </div>
-
-                <div class="email">
-                    <label for="email">E-mail</label>
-                    <input type="text" id="email" name="monster">
-                </div>
-
-            </fieldset>
-
-        </form>
-
-    </div>
-
-    <div class="button-form">
-        <button class="form-bnt">Отправить</button>
-    </div>
-
-
 
 
 

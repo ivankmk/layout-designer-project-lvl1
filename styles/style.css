@@ -109,9 +109,8 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     height: 350px;
-    align-items: center;
+    margin-top: 5%;
     flex-basis: 100%;
-    ;
 }
 
 .advantage {
@@ -179,8 +178,58 @@ h1 {
 
 /* Section form */
 
+.form-container {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+}
 
-/* .form-bnt {
+.form-header {
+    text-align: center;
+}
+
+.form-parameters,
+.form-contact-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.form1,
+.form2 {
+    width: 25%;
+    margin-top: 2%;
+}
+
+.button-form button {
+    margin-top: 4%;
+    font-size: 15px;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid grey;
+    height: 18px;
+}
+
+select {
+    width: 100px;
+    height: 20px;
+}
+
+.form-room,
+.form-interior,
+.name,
+.phone,
+.email {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.form-bnt {
     width: 100px;
     height: 30px;
     background-color: transparent;
@@ -197,7 +246,7 @@ h1 {
 
 .legend-text {
     color: turquoise;
-} */
+}
 
 
 /* End Main content */
@@ -206,7 +255,6 @@ h1 {
 /* Footer */
 
 .footer-container {
-    margin-top: 2%;
     display: flex;
     background-color: #303846;
     height: 200px;

@@ -198,7 +198,7 @@ h1 {
 
 .form1,
 .form2 {
-    width: 25%;
+    width: 18%;
     margin-top: 2%;
 }
 
@@ -211,11 +211,14 @@ input {
     border-radius: 5px;
     border: 1px solid grey;
     height: 18px;
+    width: 40%;
 }
 
 select {
-    width: 100px;
+    width: 40%;
     height: 20px;
+    border: 1px solid grey;
+
 }
 
 .form-room,
@@ -223,10 +226,13 @@ select {
 .name,
 .phone,
 .email {
+    justify-content: space-between;
+    display: flex;
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 4%;
     padding-bottom: 4%;
+    flex-basis: 100px;
 }
 
 .form-bnt {
